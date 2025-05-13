@@ -33,9 +33,37 @@ In this lab I will be taking the concepts I learned from cisco packet tracer and
     9.	Test communication
 
 # Execute: 
+1. First I will create VLANs 10 and 20 on both switches and assign interfaces to those VLANs
+
+![Alt text](https://github.com/user-attachments/assets/77fd5f6e-0e09-43e2-8920-70358642e379)
+
+2. Next I will configure interface F0/1 as a trunk interface on both switches so that it can carry traffic from any VLAN
+
+![Alt text](https://github.com/user-attachments/assets/647304f0-09b2-45f4-a8d9-1e18b76bf240)
+
+3. Next I will configure IP addresses on router interfaces for both routers 1 and 2
+![Alt text](https://github.com/user-attachments/assets/265bacd0-a52c-43d5-a7ba-11ec57a8868e)
+
+4. Now I will configure virtual VLAN router interface IP addresses on each router so that each VLAN has a default gateway
+
+![Alt text](https://github.com/user-attachments/assets/ce887df0-7eec-48ab-b3e4-836ec2a5a025)
+
+
+5. Next I will configure the routers to act as DHCP servers to hand out IP addresses to their end devices
+
+![Alt text](https://github.com/user-attachments/assets/17cebd28-931d-45fb-b934-1789ab617a4c)
+
+6. I connected end devices to each switch and made sure they were receiving an IP address from the DHCP router/server
+
+7. Next I configured RIP routing protocol between the routers so that they could share their routing tables with each other and communicate
+
+   ![Alt text](https://github.com/user-attachments/assets/c2b20301-2432-4d96-a841-57c61f4ddc6d)
+
+8. Next I configured a standard ACL to prevent the devices on the printers VLAN from getting out of the network
+
+![Alt text](https://github.com/user-attachments/assets/d20075cc-c183-447f-9286-e659f7f56ac5)
 
 
 
-
-
+   
 
