@@ -22,6 +22,18 @@ In this lab I will be taking the concepts I learned from cisco packet tracer and
 
 
 # Tasks:
+    1.	Configure VLAN Interfaces for VLAN’s 10 and 20 on switches 1 and 2, assign ports 2-4 of each switch to VLAN 10 and the ports 5-8 to VLAN 20 (The first port on each switch will not be assigned to any VLAN we will be connecting it to the router)
+    2.	Configure trunk interfaces on interface F0/1 on each switch so it can carry traffic from any VLAN
+    3.	Configure IP addresses on router interfaces
+    4.	Configure virtual VLAN router interface ip addresses so that each VLAN has a gateway
+    5.	Configure the routers as DHCP servers to hand out IP addresses to their end devices
+    6.	Configure the end devices to receive a DHCP IP address
+    7.	Configure RIP routing protocol between the routers
+    8.	Configure a standard ACL to prevent the devices on the printers VLAN from getting out of the network
+    9.	Test communication
+
+# Execute: 
+
 
 
 
