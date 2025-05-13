@@ -63,7 +63,7 @@ In this lab I will be taking the concepts I learned from cisco packet tracer and
 
 ![Alt text](https://github.com/user-attachments/assets/d20075cc-c183-447f-9286-e659f7f56ac5)
 
-
+9. Once everything was configured I tested for connectivity by using the ping command, I verified each device could ping their gateway, devices on their same network, and devices on other VLANs
 
    
 
